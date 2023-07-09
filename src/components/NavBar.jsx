@@ -85,11 +85,19 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
-                <img src={linkedIn} alt="" />
+              <a
+                href="https://www.linkedin.com/in/attila-kis-ivan-68a67bb3/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={linkedIn} alt="linkrdIn" />
               </a>
-              <a href="#">
-                <img src={github} id="github" alt="" />
+              <a
+                href="https://github.com/Attila-Kis-Ivan"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={github} id="github" alt="github" />
               </a>
             </div>
             <button className="vvd">
